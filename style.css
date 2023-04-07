@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header, .legend {
+    background-color: #1F2937;
+    padding: 0 300px;
+    display: flex;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.links ul{
+    list-style: none;    display: flex;
+    color: white;
+    gap: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.legend {
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.awesome {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+    width: 400px;
+}
+
+.hero-sec {
+    color: white;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 5px 30px;
+    background-color: rgb(27, 90, 226);
+    color: white;
+}
+
+.placeholder {
+    margin-left: auto;
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    min-width: 400px;
+}
+
+img {
+    width: 175px;
+    height: 150px;
+    border-radius: 50px;
+    border: 4px solid rgb(159, 213, 255);
+}
+
+.container2 {
+    display: flex;
+    background-color: white;
+    height: 500px;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    margin: auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.losposhos {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+}
+
+.blah {
+    max-width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: rgb(232, 231, 231);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotemain {
+    font-size: 36px;
+    font-weight: lighter;
+    width: 700px;
+}
+
+.author {
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
+.annoy {
+    display: flex;
+    margin: 50px auto;
+    background-color: rgb(7, 104, 164);
+    width: 500px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+}
+
+.leftannoy {
+    margin-right: auto;
+}
+
+.rightannoy  {
+    margin-left: auto;
+}
+
+.annoysign {
+    border-radius: 25px;
+    padding: 10px 40px;
+    background-color: rgb(7, 104, 164);
+    color: white;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 75px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
